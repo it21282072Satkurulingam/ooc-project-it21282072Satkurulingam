@@ -1,0 +1,14 @@
+using namespace std;
+class Company
+{
+private:
+	string Cname;
+	char CID[6];
+	string Location;
+	string Job_category;
+	
+public:
+	void setAddCompanyDetails(string cName, const char* cid, string loctn, string jobcatery);
+	void getDisplayCompanyDetails();
+	void SelectApplicant();
+};
