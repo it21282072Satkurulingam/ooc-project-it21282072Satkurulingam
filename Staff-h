@@ -1,0 +1,15 @@
+using namespace std;
+class Staff
+{
+private:
+	char UID[6];
+	string uName;
+	string Address;
+	char contactNO[11];
+
+public:
+
+	void setAddUserDetails(const char* u_ID, string Uname, string Uaddress, const char* contNo);
+	void getDisplayUserDetails();
+
+};
